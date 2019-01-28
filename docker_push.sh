@@ -1,3 +1,3 @@
 #!/bin/bash
 echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-docker push maximelebastard/drone-po-editor-plugin
+docker push pathmotion/drone-po-editor-plugin
